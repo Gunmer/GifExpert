@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifGridItem should be render 1`] = `
+<div
+  className="card animate__animated animate__flipInX"
+>
+  <img
+    alt="My Title"
+    src="http://my-title.jpg"
+  />
+  <p>
+    My Title
+  </p>
+</div>
+`;

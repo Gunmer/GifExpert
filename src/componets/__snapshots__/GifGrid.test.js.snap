@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifGrid should be render 1`] = `
+<Fragment>
+  <h3>
+    category
+  </h3>
+  <p
+    className="animate__animated animate__flash"
+  >
+    loading...
+  </p>
+  <div
+    className="card-grid"
+  />
+</Fragment>
+`;
+
+exports[`GifGrid should show items when useFetchGifs given 1`] = `
+<Fragment>
+  <h3>
+    category
+  </h3>
+  <div
+    className="card-grid"
+  >
+    <GifGridItem
+      id="id"
+      key="id"
+      title="Title"
+      url="http://title.png"
+    />
+  </div>
+</Fragment>
+`;

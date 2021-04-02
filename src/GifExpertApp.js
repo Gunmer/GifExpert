@@ -1,9 +1,9 @@
-import {useState} from "react";
-import AddCategory from "./componets/AddCategory";
-import {GifGrid} from "./componets/GifGrid";
+import {useState} from 'react';
+import {AddCategory} from './componets/AddCategory';
+import {GifGrid} from './componets/GifGrid';
 
-const GifExpertApp = () => {
-  const [categories, setCategories] = useState(['star wars']);
+const GifExpertApp = ({defaultCategories = []}) => {
+  const [categories, setCategories] = useState(defaultCategories);
 
   return (
       <>
